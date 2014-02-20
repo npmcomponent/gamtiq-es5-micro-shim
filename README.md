@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [gamtiq/es5-micro-shim](http://github.com/gamtiq/es5-micro-shim). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/gamtiq-es5-micro-shim`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # es5-micro-shim
 
 Several shims for ECMAScript 5 functions:

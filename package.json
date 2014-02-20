@@ -1,0 +1,24 @@
+{
+  "name": "gamtiq-es5-micro-shim",
+  "description": "Several shims for ECMAScript 5 functions",
+  "version": "0.0.2",
+  "keywords": [
+    "isArray",
+    "bind",
+    "create",
+    "keys",
+    "indexOf",
+    "es5",
+    "shim",
+    "polyfill"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "danmilon-object.keys-shim": "git://github.com/npmcomponent/danmilon-object.keys-shim.git",
+    "enyo-functionbind": "git://github.com/npmcomponent/enyo-functionbind.git",
+    "gamtiq-object-create-shim": "git://github.com/npmcomponent/gamtiq-object-create-shim.git",
+    "gamtiq-isarray-shim": "git://github.com/npmcomponent/gamtiq-isarray-shim.git",
+    "gamtiq-array-indexof-shim": "git://github.com/npmcomponent/gamtiq-array-indexof-shim.git"
+  },
+  "license": "MIT"
+}

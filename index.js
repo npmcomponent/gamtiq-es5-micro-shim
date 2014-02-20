@@ -1,10 +1,10 @@
 // Applies several ECMAScript 5 shims and composes exporting object that contains shim functions
 
-require("functionbind");
-require("array-indexof-shim");
+require('enyo-functionbind');
+require('gamtiq-array-indexof-shim');
 
 module.exports = {
-    "create": require("object-create-shim"),
-    "isArray": require("isarray-shim"),
-    "keys": require("object.keys-shim")
+    "create": require('gamtiq-object-create-shim'),
+    "isArray": require('gamtiq-isarray-shim'),
+    "keys": require('danmilon-object.keys-shim')
 };
